@@ -354,10 +354,6 @@ pidoutput[2] = -pidoutput[2];
 pidoutput[2] = -pidoutput[2];			
 #endif
 
-#ifdef MOTOR_CUT
-if ( aux[MOTOR_CUT] )
-mix[MOTOR_ML] = 0;
-#endif
 
 #ifdef MIX_LOWER_THROTTLE
 
@@ -472,10 +468,6 @@ mix[MOTOR_ML] = 0;
 		    }
 #endif				
 
-#ifdef MOTOR_CUT
-if ( aux[MOTOR_CUT] )
-mix[MOTOR_ML] = 0;
-#endif
 				
 thrsum = 0;		
 				

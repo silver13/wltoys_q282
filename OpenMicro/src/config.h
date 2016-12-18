@@ -109,14 +109,12 @@
 
 #define HEADLESSMODE CH_OFF
 
-#define LEVELMODE CH_AUX1
+#define LEVELMODE CH_INV
 
 #define STARTFLIP CH_OFF
 
 #define LEDS_ON CH_ON
 
-// test
-#define MOTOR_CUT CH_FLIP
 
 // aux1 channel starts on if this is defined, otherwise off.
 //#define AUX1_START_ON
@@ -164,9 +162,10 @@
 // select only one
 //#define RX_CG023_PROTOCOL
 //#define RX_H7_PROTOCOL
-#define RX_BAYANG_PROTOCOL
+//#define RX_BAYANG_PROTOCOL
 //#define RX_BAYANG_PROTOCOL_BLE_BEACON
 //#define RX_CX10BLUE_PROTOCOL
+#define RX_Q282_PROTOCOL
 
 // mode 1 to mode 3 conversion
 // cg023 protocol
