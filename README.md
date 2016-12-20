@@ -13,7 +13,7 @@ If using devo change to H8 protocol as it's a better protocol in several areas.
 Move the pitch stick down 3 times within about 2 seconds. Needs to be done on a level surface. Saved so it only needs to be done once. You may need to use high rates in order to reach the treshold.
 
 ###Installation and Support
-Currently this port is covered by the it's own thread on rcgroups.
+Currently this port is covered by the cg023 thread on rcgroups.
 http://www.rcgroups.com/forums/showthread.php?t=2634611#post34381034
 
 ###Wiki
